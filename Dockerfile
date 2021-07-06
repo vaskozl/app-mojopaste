@@ -6,7 +6,7 @@
 # docker run -d --restart always --name mojopaste -v /some/dir/fordata:/app/data -p 5555:8080 mojopaste
 # http://localhost:5555
 
-FROM alpine:3.5
+FROM alpine:3.14
 MAINTAINER jhthorsen@cpan.org
 
 RUN mkdir -p /app/data
